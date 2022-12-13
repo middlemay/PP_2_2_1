@@ -10,9 +10,9 @@ public class Car {
     @Column(name = "id")
     private Long id;
     @Column (name = "model")
-    String model;
+    private String model;
     @Column (name = "series")
-    int series;
+    private int series;
 
     public Car(String model, int series) {
         this.model = model;
